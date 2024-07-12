@@ -1,6 +1,6 @@
 import React from 'react'
 
-const AdditionalImages = (url) => {
+const AdditionalImages = ({url}) => {
   return (
     <div>
         <img src={url} alt="" />
